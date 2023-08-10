@@ -1,0 +1,302 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'poppins';
+  box-sizing: border-box;
+}
+/* to hide incremet opt in input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+/* Header section start */
+#header{
+  background-color:black ;
+  width: 100%;
+  z-index: 10;
+}
+#header .container{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: whitesmoke;
+}
+#header .container a{
+  text-decoration:  none;
+}
+#header .logo,.bottom-logo{
+  font-size: 2rem;
+  font-weight: 800;
+}
+#header .sub-header{
+  display: flex;
+  width: 100%;
+}
+#header .menu-bar{
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+  width: 40%;
+}
+#header .menu-first{
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+  width: 30%;
+}
+#header .menu-last{
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  width: 30%;
+}
+#header .menu-last button{
+  border: none;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: aquamarine;
+}
+#header .menu-bar div{
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0 20px;
+  
+}
+#header .menu-bar div a{
+  text-decoration: none;
+  color: black;
+}
+/* Header section end */
+
+/* Login section start */
+#log-in{
+  padding-top: 1%;
+}
+#log-in .container{
+  padding: 0 2%;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+#log-in .container .login-box{
+  width: 40%;
+  padding: 3%;
+  border: 1px solid gray;
+  border-radius: 20px;
+  text-align: center;
+}
+#log-in .container .button{
+  display: flex;
+  justify-content: center;
+}
+
+/* Login section end */
+/* Authority Login section start */
+#authority-log-in{
+  padding-top: 1%;
+}
+#authority-log-in .container{
+  padding: 0 2%;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+#authority-log-in .container .login-box{
+  width: 40%;
+  padding: 3%;
+  border: 1px solid gray;
+  border-radius: 20px;
+  text-align: center;
+}
+#authority-log-in .container .button{
+  display: flex;
+  justify-content: center;
+}
+
+/* Authority Login section end */
+
+/* Signin section start */
+#sign-in{
+  padding-top: 1%;
+}
+#sign-in .container{
+  padding: 0 2%;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#sign-in .container .signin-box{
+  width: 40%;
+  padding: 3%;
+  border: 1px solid gray;
+  border-radius: 20px;
+  text-align: center;
+}
+#sign-in .container .button{
+  display: flex;
+  justify-content: center;
+}
+
+/* Sign section end */
+
+/* Home section start */
+#home-start{
+  padding-top: 1%;
+}
+#home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousal{
+  width: 100%;
+  height: 300px;
+  background-color: aquamarine;
+  margin: 0% 2% 2% 2% ;
+}
+#home .row{
+  width: 100%;
+}
+#home .sub-container{
+  padding: 5%;
+  background-color: aquamarine;
+  text-align: center;
+  border-radius: 10px;
+  margin: 1%;
+}
+#home .sub-container .count{
+  font-size: 3rem;
+  font-weight: 700;
+}
+/* Home section end */
+
+/* All complaints section start */
+#all-complaints{
+  padding-top: 1%;
+}
+#all-complaints .row{
+  padding: 0 2%;
+}
+#all-complaints .row .complaint{
+  width: 100;
+  background-color: aquamarine;
+  margin:  1% 0;
+  border-radius: 10px;
+}
+/* All complaints section end */
+
+/* My complaints section start */
+#my_complaints{
+  padding-top: 1%;
+}
+#my_complaints .container{
+  padding: 0 2%;
+  display: flex;
+  width: 100%;
+}
+#my_complaints .container .profile_container{
+  width: 30%;
+}
+#my_complaints .container .profile_container .profile{
+  background-color: aquamarine;
+  margin: 0 6% 0 0;
+  display: flex;
+  justify-content: center;
+
+}
+#my_complaints .container .profile_container .profile_image{
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 50px;
+}
+#my_complaints .container .complaints{
+  width: 70%;
+}
+#my_complaints .container .complaints .complaint{
+  height: 400px;
+  background-color: aquamarine;
+  margin: 0 0 6% 0;
+}
+/* My complaints section end */
+
+/* Raise complaints section startr */
+#raise_complaints{
+  padding-top: 1%;
+}
+#raise_complaints .container{
+  padding: 0 2%;
+  width: 100%;
+  display: flex;
+}
+#raise_complaints .container .form{
+  width: 50%;
+}
+#raise_complaints .container .preview{
+  width: 50%;
+  padding: 3%;
+}
+#raise_complaints .container .preview .view{
+  width: 100%;
+  background-color: aquamarine;
+  border-radius: 10px;
+  padding: 2%;
+}
+.view .profile_image{
+  width: 40px;
+  height: 40px;
+  background-color: aliceblue;
+  border-radius: 50%;
+}
+.view{
+  width: 100%;
+  background-color: aquamarine;
+  border-radius: 10px;
+  padding: 2%;
+}
+.view .image{
+  width: 100%;
+  height: 400px;
+  background-color: aliceblue;
+  margin-top: 2%;
+}
+#raise_complaints .container form{
+  z-index: 0;
+}
+
+/* Raise complaints section end */
+
+
+
+
+
+
+/* Footer section start */
+#footer{
+  width: 100%;
+  background-color: black;
+  margin-top: 100px;
+  justify-content: center;
+}
+#footer .row{
+  color: white;
+  text-align: center;
+}
+#footer .row .footer-col a{
+text-decoration: none;
+}
+
+/* Footer section end */
