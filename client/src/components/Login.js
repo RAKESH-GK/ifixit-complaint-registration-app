@@ -49,7 +49,6 @@ export default function LogIn() {
                                 <input type="email" className="form-control" id="floatingPassword" placeholder="Password" autoComplete="none"
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
-                                    required
                                     onClick={hideToast}
                                 />
                                 <label htmlFor="floatingPassword">Email</label>
@@ -58,7 +57,6 @@ export default function LogIn() {
                                 <input type="text" className="form-control" id="floatingPassword" placeholder="Password" autoComplete="none"
                                     value={password}
                                     onChange={(e) => setPassword(e.target.value)}
-                                    required
                                     onClick={hideToast}
                                 />
                                 <label htmlFor="floatingPassword">Password</label>

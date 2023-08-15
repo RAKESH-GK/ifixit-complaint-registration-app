@@ -12,8 +12,10 @@ import AuthorityLogin from './components/AuthorityLogin';
 import RaiseComplaints from './components/RaiseComplaints';
 import MyComplaints from './components/MyComplaints';
 import AllComplaints from './components/AllComplaints';
+import ViewComplaints from './components/ViewComplaints';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
+import SolveComplaint from './components/SolveComplaint';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
         <Route path="/raise-complaints" element={<RaiseComplaints />} />
         <Route path="/all-complaints" element={<AllComplaints />} />  
         <Route path="/my-complaints" element={<MyComplaints />} />
+        <Route path="/view-complaints" element={<ViewComplaints />} />
+        <Route path="/solve-complaint" element={<SolveComplaint />} />
       </Routes>
       <Footer />
     </div>
